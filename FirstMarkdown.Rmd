@@ -1,0 +1,16 @@
+---
+title: "Our First Rmd"
+author: 'M119 Section 1'
+date: "2024-09-20"
+output: 
+  html_document:
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Given a function $f(x)=x^2$ and funtion $h(x) = f(x+2)$, we want to calculate the input for $h(x)$ when the output is 4.
+![](Day4_fig1.jpg)
+Some things to notice about this calculation is that taking the square root of a squared quantity gives an absolute value, this leads to two inputs that are connected to the output 4 for the function $h$.
